@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horrormaia</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <style>
+        .button {
+            user-select: none;
+            box-sizing: border-box;
+            display: inline-block;
+            font-size: 14px;
+            color: var(--itchio_button_fg_color, white);
+            text-shadow: 0 1px 0 var(--itchio_button_shadow_color, #c3223e);
+            cursor: pointer;
+            box-shadow: rgba(255, 255, 255, 0.21) 0px 0px 1px inset;
+            text-align: center;
+            line-height: 33px;
+            font-weight: bold;
+            height: 35px;
+            text-decoration: none;
+            padding: 0px 10px;
+            background: var(--itchio_button_color, #FF2449);
+            border-radius: 3px;
+            border-width: 1px;
+            border-style: solid;
+            border-color: rgba(0, 0, 0, 0.1);
+            border-image: initial;
+        }
+
+        .titleH {
+            padding: 23px;
+        }
+    </style>
+
+</head>
+<body style="background-color: #0e0b1d;">
+    <div class="w3-bar w3-center">
+        <div class="w3-col w3-padding-16 w3-mobile" style="width: 26%"><a class="w3-button w3-hover-white w3-round-xxlarge w3-xlarge" style="width: 100%; color: blueviolet;" href="https://www.twitch.tv/yotobi">Segui anche tu le live >>></a></div>
+        <img class="titleH" src="https://horrormaniastore.com/cdn/shop/files/horrormania_logo.png?v=1697641298&width=270" alt="titolo">
+        <div class="w3-col w3-padding-16 w3-mobile w3-right" style="width: 26%"><a class="w3-button w3-hover-white w3-round-xxlarge w3-xlarge" style="width: 100%; color: blueviolet;" href="https://horrormaniastore.com/">Merch Horrormania!</a></div>
+    </div>
+
+    <br>
+
+    <div class="w3-center" style="background-image: url(img/vhs.png);">
+        <a class="w3-margin w3-xxxlarge w3-padding-16 w3-card w3-round-xlarge" style="color: blueviolet; font-style: oblique;">10 GIOCHI HORROR CON KARIM MUSA</a>
+    </div>
+
+    <br>
+
+    <div class="w3-row w3-margin w3-center w3-text-white">
+
+        <div class="w3-col s12 m6 l3 w3-card">
+            <p>1</p>
+            <img src="img/the_house_of_rats1.jpg" alt="Immagine 1" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open1 w3-card" style="background-color: blueviolet;">The House Of Rats</button>
+                
+                <div class="w3-modal modal1">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close1">Close</button>
+                                <img src="img/the_house_of_rats.jpg" alt="Immagine_1" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/Karim_the_house_of_rats.jpg" alt="karim1">
+                                    <h4>This game is based on a work by "H.P. Lovecraft", "The Rats in The Walls". The story has been completely modified for the game.<br><br> It's a short horror game, a different experience with retro graphics and a macabre and lonely environment.</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>Ray gets an old heirloom house from his late grandfather... Excited, he soon goes to the new house and starts renovating it. During the renovation of the house, Ray begins to discover terrible things about the place and his grandfather's past.</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/the-house-of-rats/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.99 USD</span></div>
+                                <br>
+                            </div>              
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open1 = document.querySelector(".open1");
+                    const close1 = document.querySelector(".close1");
+                    const modal1 = document.querySelector(".modal1");
+            
+                    open1.addEventListener("click", ()=> {
+                      modal1.style.display = "block";  
+                    });
+            
+                    close1.addEventListener("click", ()=> {
+                        modal1.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>2</p>
+            <img src="img/the_elevator1.jpg" alt="Immagine 2" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open2 w3-card" style="background-color: blueviolet;">The Elevator</button>
+                
+                <div class="w3-modal modal2">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close2">Close</button>
+                                <img src="img/the_elevator.jpg" alt="Immagine_2" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/Karim_the_elevator.jpg" alt="karim2">
+                                    <h4><br>"The Elevator" is a short horror experience with retro PS1 graphics and a horror theme from the 80's, golden age of VHS tapes.<br><br> As I said, it's a short game, focused on psychological horror.</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>Josh has been working a hotel front desk for a week on the night shift. After realizing that in the elevator of the place there is a mystery... he begins to investigate to find out what is happening.</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/the-elevator/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.00 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open2 = document.querySelector(".open2");
+                    const close2 = document.querySelector(".close2");
+                    const modal2 = document.querySelector(".modal2");
+            
+                    open2.addEventListener("click", ()=> {
+                      modal2.style.display = "block";  
+                    });
+            
+                    close2.addEventListener("click", ()=> {
+                        modal2.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>3</p>
+            <img src="img/endless_days1.jpg" alt="Immagine 3" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open3 w3-card" style="background-color: blueviolet;">Endless Days</button>
+
+                <div class="w3-modal modal3">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close3">Close</button>
+                                <img src="img/endless_days.jpeg" alt="immagine_3" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/karim_endless_days.png" alt="karim3">
+                                    <h4>"Endless Days" is a horror game with PS1-inspired graphics. The game takes place in 1975 and you control a lighthouse keeper working isolated on an island.<br><br>We seek to convey a feeling of extreme solitude and a very deep ambiance.</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>Dylan takes a job on an isolated island looking after the lighthouse for six months. The last lighthouse keeper has mysteriously disappeared and as the days go by, Dylan discovers that he may not be alone on the island.</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/endless-days/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.99 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open3= document.querySelector(".open3");
+                    const close3 = document.querySelector(".close3");
+                    const modal3 = document.querySelector(".modal3");
+            
+                    open3.addEventListener("click", ()=> {
+                      modal3.style.display = "block";  
+                    });
+            
+                    close3.addEventListener("click", ()=> {
+                        modal3.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>4</p>
+            <img src="img/legend_hunters1.jpg" alt="Immagine 4" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open4 w3-card" style="background-color: blueviolet;">Legend Hunters</button>
+
+                <div class="w3-modal modal4">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close4">Close</button>
+                                <img src="img/legend_hunters.png" alt="Immagine_4" style="width:90%">
+                                <div>
+                                    <br>
+                                    <img style="float: right; width: 48%;" src="img/karim_legend_hunters.png" alt="karim4">
+                                    <br>
+                                    <h4>It's a game inspired by the movie "Ghostbusters" with a touch of PS1 graphics and the horror of the 80s.<br><br>Control a paranormal agent, investigate and search for evidence of the paranormal world.</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>The 7-member team "Legend Hunters" investigate paranormal cases and look for evil spirits. Step into the shoes of Tommy, one of the team's members, and investigate the home of a former serial killer.</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/legend-hunters/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.00 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open4 = document.querySelector(".open4");
+                    const close4 = document.querySelector(".close4");
+                    const modal4 = document.querySelector(".modal4");
+            
+                    open4.addEventListener("click", ()=> {
+                      modal4.style.display = "block";  
+                    });
+            
+                    close4.addEventListener("click", ()=> {
+                        modal4.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>5</p>
+            <img src="img/poop_killer.jpg" alt="Immagine 5" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open5 w3-card" style="background-color: blueviolet;">Poop Killer 2</button>
+
+                <div class="w3-modal modal5">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">                           
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close5">Close</button>
+                                <img src="img/poop_killer.jpg" alt="Immagine_5" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/karim_poop_killer_2.png" alt="karim5">
+                                    <h4>"Poop Killer 2" is a comedy game mixed with trash horror from the 80's and 90's. Inspired by old movies involving marijuana and a lot of shit.<br><br>It's a short game with the objective to amuse the player, it contains 2 simple endings.</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>Billy is a marijuana dealer and lives with his friend Jamal in an apartment. They sell and smoke a lot of weed... After your friend takes a shit in your toilet... the poop killer comes to visit you.</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/poop-killer-2/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.99 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open5 = document.querySelector(".open5");
+                    const close5 = document.querySelector(".close5");
+                    const modal5 = document.querySelector(".modal5");
+            
+                    open5.addEventListener("click", ()=> {
+                      modal5.style.display = "block";  
+                    });
+            
+                    close5.addEventListener("click", ()=> {
+                        modal5.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>6</p>
+            <img src="img/gears1.jpg" alt="Immagine 6" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open6 w3-card" style="background-color: blueviolet;">Gears</button>
+
+                <div class="w3-modal modal6">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close6">Close</button>
+                                <img src="img/gears.jpg" alt="Immagine_6" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/karim_gears.png" alt="karim6">
+                                    <h4>"Gears" is a horror game inspired by the movie "SAW" with a touch of horror from the 80s and 90s with ps1/ps2 graphics..<br><br>For lovers of horror games and "SAW" this game is perfect for you... Are you able to survive? Live or die... take your pick!</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>Adam and his friends gather for a beer in a bar... After being kidnapped by an assassin... he will have to play a dangerous and deadly game to save his life and that of his friends.</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/gears/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.00 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open6 = document.querySelector(".open6");
+                    const close6 = document.querySelector(".close6");
+                    const modal6 = document.querySelector(".modal6");
+            
+                    open6.addEventListener("click", ()=> {
+                      modal6.style.display = "block";  
+                    });
+            
+                    close6.addEventListener("click", ()=> {
+                        modal6.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>7</p>
+            <img src="img/rec.jpg" alt="Immagine 7" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open7 w3-card" style="background-color: blueviolet;">Rec</button>
+
+                <div class="w3-modal modal7">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close7">Close</button>
+                                <img src="img/rec.jpg" alt="Immagine_7" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/karim_rec.png" alt="karim7">
+                                    <h4><br><br>"REC" is a short horror experience with ps1/ps2 graphics being inspired by 80's horror movies. In "Found Footage" style.</p><br><br>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>Myers, a police investigator, receives a VHS tape. This tape is evidence of a crime, found in an old abandoned house that belonged to a serial killer known as "the scythe maniac".</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/rec/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.00 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open7 = document.querySelector(".open7");
+                    const close7 = document.querySelector(".close7");
+                    const modal7 = document.querySelector(".modal7");
+            
+                    open7.addEventListener("click", ()=> {
+                      modal7.style.display = "block";  
+                    });
+            
+                    close7.addEventListener("click", ()=> {
+                        modal7.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>8</p>
+            <img src="img/super_trash_man.jpg" alt="Immagine 8" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open8 w3-card" style="background-color: blueviolet;">Super Trash Man</button>
+
+                <div class="w3-modal modal8">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close8">Close</button>
+                                <img src="img/super_trash_man.jpg" alt="Immagine_8" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/karim_super_trash_man.png" alt="karim8">
+                                    <h4><br><br><br>"Super Trash Man" is a short horror experience with ps1/ps2 graphics inspired by 80's horror movies, set on a night before Christmas.</p><br><br>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>A doll, a sick son, a wife who doesn't take "no" as an answer... can they make a simple father get his hands dirty?</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/super-trash-man/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.99 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open8 = document.querySelector(".open8");
+                    const close8 = document.querySelector(".close8");
+                    const modal8 = document.querySelector(".modal8");
+            
+                    open8.addEventListener("click", ()=> {
+                      modal8.style.display = "block";  
+                    });
+            
+                    close8.addEventListener("click", ()=> {
+                        modal8.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>9</p>
+            <img src="img/truth_loop.jpg" alt="Immagine 9" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open9 w3-card" style="background-color: blueviolet;">Truth Loop</button>
+
+                <div class="w3-modal modal9">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close9">Close</button>
+                                <img src="img/truth_loop.jpg" alt="Immagine_9" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/karim_truth_loop_2.png" alt="karim9">
+                                    <h4>"TRUTH LOOP 2" is a short game (approximately 5 minutes), with a scary story and bizarre moments... It has a "LOOP" style of gameplay, you keep repeating an action while the game and the story progress.<br><br>WARNING: The game can be disturbing for more sensitive people.</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>A German soldier wakes up in a cold and totally destroyed place... but he realizes that he is trapped there and every moment he discovers that he has done terrible things...</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/truth-loop-2/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.00 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open9 = document.querySelector(".open9");
+                    const close9 = document.querySelector(".close9");
+                    const modal9 = document.querySelector(".modal9");
+            
+                    open9.addEventListener("click", ()=> {
+                      modal9.style.display = "block";  
+                    });
+            
+                    close9.addEventListener("click", ()=> {
+                        modal9.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+
+
+
+        <div class="w3-col s6 m6 l3 w3-card">
+            <p>10</p>
+            <img src="img/bloody_woman1.jpg" alt="Immagine 10" style="width:90%">
+            <div class="w3-container w3-center">
+                <button class="w3-button w3-row w3-center open10 w3-card" style="background-color: blueviolet;">Bloody Woman</button>
+
+                <div class="w3-modal modal10">
+                    <div class="w3-modal-content w3-round-xlarge" style="background-image: url(img/vhs.png);">
+                        <div class="w3-container">
+                            <div class="w3-content w3-display-container">
+                                <button class="w3-button w3-black w3-xlarge w3-left close10">Close</button>
+                                <img src="img/bloody_woman.png" alt="Immagine_10" style="width:90%">
+                                <div>
+                                    <img style="float: right; width: 48%;" src="img/karim_bloody_woman.png" alt="karim10">
+                                    <h4><br>"Bloody Woman" is a short (10 to 20 minutes) horror experience intended to terrify the player with the events and the story.<br><br>Utilizing subtle horror with surprise elements and sounds to create a unique atmosphere.</p>
+                                </div>
+                                <br>
+                                <div class="w3-center">
+                                    <h3>SYNOPSIS:</h3>
+                                    <h4>A young man accepts a job in a laundry in the late hours. But he discovers that something terrible has happened there and his life is in danger.</h4>
+                                </div>
+                                <br> 
+                                <div><a class="button buy_btn" href="https://616games.itch.io/bloody-woman/purchase">Buy Now</a><span class="dollars" itemprop="price">$1.00 USD</span></div>
+                                <br>
+                            </div>             
+                        </div>
+                    </div>
+                </div>
+                <script>
+                    const open10 = document.querySelector(".open10");
+                    const close10 = document.querySelector(".close10");
+                    const modal10 = document.querySelector(".modal10");
+            
+                    open10.addEventListener("click", ()=> {
+                      modal10.style.display = "block";  
+                    });
+            
+                    close10.addEventListener("click", ()=> {
+                        modal10.style.display = "none";
+                    });
+                </script>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
